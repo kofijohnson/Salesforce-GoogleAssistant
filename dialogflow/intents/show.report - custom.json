@@ -1,0 +1,34 @@
+{
+  "id": "4dc45471-05be-40c0-bfaa-ccd4ed179f72",
+  "parentId": "8680e284-0e7f-43ae-bc90-7668ecc0fa13",
+  "rootParentId": "8680e284-0e7f-43ae-bc90-7668ecc0fa13",
+  "name": "show.report - custom",
+  "auto": true,
+  "contexts": [
+    "reportContext",
+    "showreport-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showreport.showreport-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

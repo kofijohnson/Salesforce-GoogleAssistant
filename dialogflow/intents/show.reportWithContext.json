@@ -1,0 +1,70 @@
+{
+  "id": "d84fa6f8-5f3e-4e69-afcc-4a0035bb2428",
+  "name": "show.reportWithContext",
+  "auto": true,
+  "contexts": [
+    "reportContext"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "show.report",
+      "affectedContexts": [
+        {
+          "name": "reportContext",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "af3dc17e-1e59-4afc-8c18-cc42d78df92e",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "filterField",
+          "value": "$filterField",
+          "isList": false
+        },
+        {
+          "id": "5a68f891-0edd-45dc-afa5-a8a89275aa3d",
+          "required": true,
+          "dataType": "@filterOperator",
+          "name": "filterOperator",
+          "value": "$filterOperator",
+          "isList": false
+        },
+        {
+          "id": "ce9eb6e9-d583-44d4-a39e-f01db9142f09",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "filterValue",
+          "value": "$filterValue",
+          "isList": false
+        },
+        {
+          "id": "962f886b-52f8-4fce-a542-35e7092a9431",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "reportName",
+          "value": "#reportContext.reportName",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521491591,
+  "fallbackIntent": false,
+  "events": []
+}

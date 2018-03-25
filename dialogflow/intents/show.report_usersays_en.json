@@ -1,0 +1,478 @@
+[
+  {
+    "id": "80e9fbe1-6e3f-4dc0-b56d-1b97a4a496a1",
+    "data": [
+      {
+        "text": "Open the ",
+        "userDefined": false
+      },
+      {
+        "text": "Accounts By Type",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " report, where the ",
+        "userDefined": false
+      },
+      {
+        "text": "rating",
+        "alias": "filterField",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "equals",
+        "alias": "filterOperator",
+        "meta": "@filterOperator",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "warm",
+        "alias": "filterValue",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "b2bfff9e-94ea-46f5-8a60-066a2252669e",
+    "data": [
+      {
+        "text": "Show the report ",
+        "userDefined": false
+      },
+      {
+        "text": "Accounts By Type",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " where the ",
+        "userDefined": false
+      },
+      {
+        "text": "rating",
+        "alias": "filterField",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "is",
+        "alias": "filterOperator",
+        "meta": "@filterOperator",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "hot",
+        "alias": "filterValue",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "056df8dc-9449-4f19-a205-42f2f9dc1065",
+    "data": [
+      {
+        "text": "Show the report ",
+        "userDefined": false
+      },
+      {
+        "text": "Sales By Industry",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ", for ",
+        "userDefined": false
+      },
+      {
+        "text": "amount",
+        "alias": "filterField",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "above",
+        "alias": "filterOperator",
+        "meta": "@filterOperator",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "100,000",
+        "alias": "filterValue",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521046614
+  },
+  {
+    "id": "f060ad2a-2fcb-4bfe-b301-130cb983462a",
+    "data": [
+      {
+        "text": "Show the ",
+        "userDefined": false
+      },
+      {
+        "text": "Sales By Industry",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " report, for ",
+        "userDefined": false
+      },
+      {
+        "text": "Amount",
+        "alias": "filterField",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "greater than",
+        "alias": "filterOperator",
+        "meta": "@filterOperator",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "10000",
+        "alias": "filterValue",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "4f1e9dbf-b000-4548-b653-43cb03bd242d",
+    "data": [
+      {
+        "text": "Display the ",
+        "userDefined": false
+      },
+      {
+        "text": "Cases By Origin",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "1b669089-6211-48c6-be02-547b0158bceb",
+    "data": [
+      {
+        "text": "Open the ",
+        "userDefined": false
+      },
+      {
+        "text": "Sales by Industry",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "8ff541ac-2f45-4884-94d2-480d76b8d405",
+    "data": [
+      {
+        "text": "Show me the ",
+        "userDefined": false
+      },
+      {
+        "text": "Sales By Lead Source",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "08504f7e-af31-4af6-9aa9-7db7dd8a7417",
+    "data": [
+      {
+        "text": "Pull the ",
+        "userDefined": false
+      },
+      {
+        "text": "Cases By Origin",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "12d3dedd-c00f-4573-9b55-6015ee067901",
+    "data": [
+      {
+        "text": "Open the report ",
+        "userDefined": false
+      },
+      {
+        "text": "Accounts By Type",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ", where the ",
+        "userDefined": false
+      },
+      {
+        "text": "rating",
+        "alias": "filterField",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "is",
+        "alias": "filterOperator",
+        "meta": "@filterOperator",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "warm",
+        "alias": "filterValue",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "11ead8f8-9c76-4bfd-a8e1-bf21b175685b",
+    "data": [
+      {
+        "text": "Pull the ",
+        "userDefined": false
+      },
+      {
+        "text": "Sales By Lead Source",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "73e00adc-4ec2-4d6c-b978-3a6c149945e6",
+    "data": [
+      {
+        "text": "open ",
+        "userDefined": false
+      },
+      {
+        "text": "accounts by type",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "7eba2fbf-ed52-4f10-a5cd-6f1f3da946d7",
+    "data": [
+      {
+        "text": "Show the ",
+        "userDefined": false
+      },
+      {
+        "text": "Sales By Lead Source",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "6df0252b-1d38-4973-b883-4fd1647a2557",
+    "data": [
+      {
+        "text": "Show me the ",
+        "userDefined": false
+      },
+      {
+        "text": "Sales By Lead Source",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "26467e06-3965-480d-aae5-5eb4a6373fbe",
+    "data": [
+      {
+        "text": "Cases By Origin",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "b55de478-696e-4d84-b034-a7375f4ea528",
+    "data": [
+      {
+        "text": "Show the ",
+        "userDefined": false
+      },
+      {
+        "text": "Sales By Industry",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "598018f1-29ec-4bc3-9b20-97159b9f6369",
+    "data": [
+      {
+        "text": "Show the ",
+        "userDefined": false
+      },
+      {
+        "text": "Sales By Industry",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  },
+  {
+    "id": "2a665941-3ffe-4142-a0e4-8c1005461085",
+    "data": [
+      {
+        "text": "Open ",
+        "userDefined": false
+      },
+      {
+        "text": "Cases By Origin",
+        "alias": "reportName",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521039183
+  }
+]
