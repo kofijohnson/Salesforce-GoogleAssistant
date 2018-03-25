@@ -1,0 +1,24 @@
+{
+  "name": "salesforce-google-assistant",
+  "version": "1.0.0",
+  "description": "Middleware for Google Assistant and Salesforce",
+  "main": "index.js",
+  "dependencies": {
+    "@types/actions-on-google": "^1.8.0",
+    "@types/axios": "^0.14.0",
+    "@types/body-parser": "^1.16.8",
+    "@types/express": "^4.11.1",
+    "actions-on-google": "^1.10.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "typescript": "^2.7.2"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "postinstall": "npm run tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Kofi Johnson",
+  "license": "ISC"
+}
