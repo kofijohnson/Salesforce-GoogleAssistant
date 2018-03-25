@@ -1,0 +1,23 @@
+
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "module": "commonjs",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "dist/",
+        "pretty": true,
+        "rootDirs": [
+            "./src"
+        ],
+        "strict": true,
+        "target": "es2017"
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
