@@ -1,0 +1,96 @@
+[
+  {
+    "id": "4688b819-71f1-47a9-b061-18a708d73a09",
+    "data": [
+      {
+        "text": "Filter ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " by ",
+        "userDefined": false
+      },
+      {
+        "text": "Amount",
+        "alias": "filterField",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "greater than",
+        "alias": "filterOperator",
+        "meta": "@filterOperator",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "100000",
+        "alias": "filterValue",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521338727
+  },
+  {
+    "id": "916e8661-0408-40bc-be2b-93b995ffe35a",
+    "data": [
+      {
+        "text": "Filter ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "rating",
+        "alias": "filterField",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "equals",
+        "alias": "filterOperator",
+        "meta": "@filterOperator",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "warm",
+        "alias": "filterValue",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521338727
+  }
+]

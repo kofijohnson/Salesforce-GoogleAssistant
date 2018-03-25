@@ -1,0 +1,33 @@
+[
+  {
+    "value": "equals",
+    "synonyms": [
+      "equals",
+      "is"
+    ]
+  },
+  {
+    "value": "lessThan",
+    "synonyms": [
+      "less than",
+      "fewer than",
+      "below"
+    ]
+  },
+  {
+    "value": "not equal to",
+    "synonyms": [
+      "not equals",
+      "is not",
+      "isn\u0027t"
+    ]
+  },
+  {
+    "value": "greaterThan",
+    "synonyms": [
+      "greater than",
+      "more than",
+      "above"
+    ]
+  }
+]
