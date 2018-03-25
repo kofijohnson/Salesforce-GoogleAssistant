@@ -1,0 +1,56 @@
+<apex:page controller="ReportViewerController">
+    <apex:includeScript value="{!$Resource.cometd}"/>
+    
+    <apex:outputPanel id="reportPanel">
+        <apex:dynamicComponent componentValue="{!reportChart}"/>
+    </apex:outputPanel>
+
+    <apex:form >
+        <apex:actionFunction action="{!display}" name="display" rerender="reportPanel">
+            <apex:param name="reportDeveloperName" assignTo="{!reportDeveloperName}" value="" />
+            <apex:param name="reportFilter" assignTo="{!reportFilter}" value="" />
+        </apex:actionFunction>
+    </apex:form>
+
+
+    <script type="text/javascript">
+        var cometd;
+        var newSubscription;
+        init();
+        subscribe();
+
+        function init() {
+            cometd = new org.cometd.CometD();
+            var cometdUrl = window.location.protocol+'//'+window.location.hostname+'/cometd/40.0/';
+            cometd.configure({
+                url: cometdUrl,
+                requestHeaders: { Authorization: 'OAuth {!$Api.Session_ID}'},
+                appendMessageTypeToURL : false
+            });
+            cometd.websocketEnabled = false;
+            console.log('Connecting to CometD: '+ cometdUrl);
+        }
+        
+        function subscribe() {
+            cometd.handshake(function(handshakeReply) {
+                if (handshakeReply.successful) {
+                    console.log('Connected to CometD.');
+                    cometd.batch(function() {
+                        newSubscription = cometd.subscribe('/event/GoogleAssistantRequest__e',
+                            function(message) {
+                                console.log(message);
+                                display(message.data.payload.DeveloperName__c, message.data.payload.Filter__c);
+                            }
+                        );
+                    });
+                        
+                }
+            });
+        }
+        
+        window.onbeforeunload = function() {
+            cometd.unsubscribe(newSubscription);
+        }
+            
+    </script>
+</apex:page>
